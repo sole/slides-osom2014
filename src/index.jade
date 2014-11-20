@@ -1,0 +1,410 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Invest in the future, build for the web!
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+  body
+
+    article
+
+      section(data-bespoke-state='title')
+        h1 Invest in the future:<br/>build for the <span>web</span>!
+        h2 Soledad Penadés
+        h3 @supersole
+
+
+      section(data-bespoke-state='oneliner')
+        h2.bullet Apps Engineer, Mozilla
+
+
+      section
+        h2.bullet Some time before...
+        h1.bullet Android
+
+
+      section
+        q.bullet You can earn a living with Android apps
+
+
+      section(data-bespoke-state='list')
+        h2.bullet Photography apps
+
+
+      section(data-bespoke-state='list')
+        h2.bullet Faster than stock app
+        ul
+          li Less clunky
+          li Hardware buttons
+          li Silent
+
+
+      section(data-bespoke-state='list')
+        h2.bullet Image filters
+        ul
+          li Image processing
+          li Push limits of hardware
+          li Do it realtime
+
+
+      section(data-bespoke-state='list')
+        h2.bullet Good feedback<span class="bullet">, but...</span>
+        ul
+          li Lots of untestable hardware issues
+          li Can’t buy all those phones!
+          li Where’s the iOS version?
+          li And Blackberry?
+          li Windows?
+          li MacOS? <span class="bullet">(I was running <em>Linux</em>!)</span>
+
+      section(data-bespoke-state='list')
+        h2.bullet Interactive picture books start-up
+        ul
+          li Mac OS authoring environment
+          li XML format that contained text, assets, transition/interaction data
+          li Engine<span class="bullet">: iOS</span><span class="bullet">, Android</span>
+
+      section(data-bespoke-state='list')
+        h2.bullet Layout was DIFFICULT
+        ul
+          li No preview...
+          li ... or differs from actual results<span class="bullet"> (1+ minute deploy times)</span>
+          li Complex layouts <span class="bullet">... actually used a <tt>WebView</tt>!</span>
+          li Native animations limited
+          li Jank
+          li Spending inordinate amounts of time in the profiler
+          li Jank!
+          li Cargo cult optimisations
+          li JANK!
+          li Testing<span class="bullet">&mdash;LOL</span>
+
+
+      section(data-bespoke-state='list')
+        h2.bullet Bad habits, deeply ingrained
+        ul
+          li Treating different sizes as an exception not a norm
+          li Assets sized for iPad 1
+          li Fun fun fun when retina iPads were introduced
+
+
+      section
+        h2.bullet One day I woke up and wondered...
+        h1.bullet why is this not HTML+JS+CSS?
+
+
+      section
+        q.bullet ... because the web is not ready yet...
+        q.bullet ... you can’t have smooth animations and audio in the browser...
+        h1.bullet OK
+
+
+      section(data-bespoke-state='list')
+        h2.bullet Contracting for local newspaper
+        p.bullet We basically built a glorified RSS reader.
+        ul
+          li Layout kept getting more complex.
+          li Again lots of <tt>WebView</tt>s.
+          li Scripted actions in articles using JavaScript.
+          li Nested views limit<span class="bullet">, but NOT ALL devices had that error.</span>
+          li Hey, so... <strong class="bullet">what about a total rewrite of this less than two years app?</strong>
+
+      section
+        h2.bullet One day I woke up and wondered again...
+        h1.bullet why is this not HTML+JS+CSS?
+
+
+      section
+        q.bullet ... because the web is not ready yet...
+        q.bullet ... you can’t store offline data...
+        q.bullet ... you can’t have push notifications...
+        h1.bullet A-ha.
+      
+
+      section
+        h3.bullet One day I was updating the company website<span class="bullet"> and opened DevTools to live edit it</span>
+        h1.bullet I had an epiphany
+
+
+      section
+        h3.bullet We’re recreating browsers again and again because...
+        h2.bullet “the web is not ready”
+        h1.bullet Enough is enough.
+
+      section(data-bespoke-state='oneliner')
+        h1.bullet I’m out of this madness<span class="bullet">, and back to the web.</span>
+
+      section(data-bespoke-fullscreenbackground='images/lastninja2.jpg', data-bespoke-state='oneliner')
+        h1.bullet Back with a vengeance
+
+      section(data-bespoke-state='list')
+        h2.bullet Two sides of the fence
+        ul
+          li Upsides vs downsides
+          li Teach about upsides
+          li Work in fixing the downsides!
+          li So...
+
+      section(data-bespoke-fullscreenbackground='images/heypanda.jpg')
+        h1.bullet I joined Mozilla
+
+
+      section(data-bespoke-fullscreenbackground='images/iwantyou.png')
+        h1 We want YOU to build for the web
+
+
+      section(data-bespoke-state='list')
+        h2.bullet Why build for the web?
+        ul
+          li It’s the only non proprietary platform. <span class="bullet"><em>No one</em> owns it.</span>
+          li The closest to <em>Write Once Run Everywhere</em> you’ll ever get.
+          li Using standards === higher chance it’ll work in the future
+          li Fragmentation is not an issue<span class="bullet">, it's business as usual.</span>
+          li Widens your base of customers.
+          li Lowest development costs.
+          li It’s <em>everywhere</em> <span class="bullet">... even in e-books</span><span class="bullet">, TV set top boxes</span><span class="bullet">, GPS trackers</span><span class="bullet">, mobile native via <tt>WebKit</tt> views</span><span class="bullet">, native via PhoneGap, Ludei, AppCelerator...</span><span class="bullet">, desktop environments (GNOME 3)</span><span class="bullet">, Mac OS scripting...</span>
+      
+
+      section(data-bespoke-fullscreenbackground='images/firefoxmassive.jpg')
+        h1 We helped unlock desktop browsers from monopoly
+
+      section(data-bespoke-fullscreenbackground='images/firefoxos.jpg')
+        h1 We’re doing the same in mobile with Firefox OS
+
+      section(data-bespoke-state='list')
+        h2.bullet New APIs
+        ul.columns
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Network_Information">Network Information </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/WebBluetooth">Bluetooth</a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Mobile_Connection">Mobile Connection </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Network_Stats">Network Stats </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/TCP_Socket">TCP Socket </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/WebTelephony">Telephony</a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/WebSMS">WebSMS </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/WiFi_Information">WiFi Information </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Using_Light_Events">Ambient Light Sensor </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Battery_Status">Battery Status </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Proximity">Proximity </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Detecting_device_orientation">Device Orientation </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Managing_screen_orientation">Screen Orientation </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Vibration">Vibration </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Alarm">Alarm </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/WebFM_API">WebFM </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Camera">Camera </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Power_Management">Power Management</a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/FileHandle_API">FileHandle</a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Contacts">Contacts </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Device_Storage_API">Device Storage </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Settings">Settings </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Alarm">Alarm </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Simple_Push">Simple Push </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Using_Web_Notifications">Web Notifications</a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Web_Activities">Web Activities</a>
+          li <a href="https://developer.mozilla.org/en-US/docs/Apps/Publishing/In-app_payments">WebPayment </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/DOM/Using_the_Browser_API">Browser </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Idle">Idle </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Permissions">Permissions </a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Time_and_Clock">Time/Clock </a>
+
+      section
+        h3.bullet Prefixed API implementations
+        h2.bullet It’s the testing ground
+        h1.bullet Submitted to standards track
+
+
+      section
+        h1 To help shaping standards, not to build a proprietary OS in JS
+
+
+      section(data-bespoke-state='list')
+        h2.bullet Existing APIs&rarr;
+        h1.bullet efficient mobile implementations
+
+
+      section(data-bespoke-state='list')
+        h2.bullet Existing APIs
+        ul
+          li <a href="https://developer.mozilla.org/en-US/docs/Web/WebGL">WebGL</a>
+          li <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">Web Audio</a>
+          li <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/API/WebRTC">WebRTC</a>
+          li <a href="https://developer.mozilla.org/en-US/docs/Using_geolocation">Geolocation</a>
+          li <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Pointer_Lock">Pointer Lock</a>
+          li <a href="https://developer.mozilla.org/en-US/docs/IndexedDB">IndexedDB</a>
+
+
+      section(data-bespoke-state='oneliner')
+        h1.bullet Over two billion people still don’t have access to the Internet
+
+
+      section(data-bespoke-state='oneliner')
+        h1.bullet 2,000,000,000+
+
+
+      section(data-bespoke-fullscreenbackground='images/tarako.jpg')
+        h1 $25 phone
+
+
+      section(data-bespoke-state='list')
+        h2.bullet Better tooling
+        h1.bullet The Web is more than documents today
+
+
+      section(data-bespoke-state='feature')
+        h2 Responsive design mode
+        img(src='images/devtools_responsive.gif')
+
+
+      section(data-bespoke-state='feature')
+        h2 Network + cache inspector
+        img(src='images/devtools_network.gif')
+
+
+      section(data-bespoke-state='feature')
+        h2 Scratchpad
+        img(src='images/devtools_scratchpad.gif')
+
+
+      section(data-bespoke-state='feature')
+        h2 Canvas inspector
+        img(src='images/devtools_canvasinspector.gif')
+
+
+      section(data-bespoke-state='feature')
+        h2 Shader editor
+        img(src='images/devtools_shadereditor.gif')
+
+
+      section(data-bespoke-state='feature')
+        h2 Web Audio Editor
+        img(src='images/devtools_webaudio.gif')
+
+
+      section(data-bespoke-state='list')
+        h2 Polyfills and libraries
+        h1 Filling the gaps
+
+
+      section(data-bespoke-state='feature')
+        h2
+            a(href='mozilla.github.io/brick/').
+              Brick
+        img(src='images/apps-brick.gif')
+
+
+      section(data-bespoke-state='feature')
+        h2
+            a(href='http://mozilla-cordova.github.io/').
+              Phonegap + Firefox OS
+        img(src='images/apps-phonegap.png')
+
+
+      section(data-bespoke-state='feature')
+        h2
+            a(href='http://mozilla.github.io/localForage/').
+              localForage
+        pre
+          code.language-javascript.
+            // In localStorage, we would do:
+            localStorage.setItem('key', JSON.stringify('value'));
+            doSomethingElse();
+
+            // With localForage, we use callbacks:
+            localforage.setItem('key', 'value', doSomethingElse);
+
+            // Or we can use Promises:
+            localforage.setItem('key', 'value').then(doSomethingElse);
+
+      section(data-bespoke-state='feature')
+        h2
+            a(href='https://github.com/sole/Animated_GIF').
+              Animated_GIF
+        pre
+          code.language-javascript.
+            var imgs = document.querySelectorAll('img');
+            var ag = new Animated_GIF();
+            var animatedImage = document.createElement('img');
+            ag.setSize(320, 240);
+
+            for(var i = 0; i < imgs.length; i++) {
+                ag.addFrame(imgs[i]);
+            }
+
+            ag.getBase64GIF(function(image) {
+                animatedImage.src = image;
+                document.body.appendChild(animatedImage);
+            });
+
+      section(data-bespoke-state='feature')
+        h2
+            a(href='https://github.com/sole/Animated_GIF').
+              Animated_GIF
+        img(src='images/apps-animatedgif.gif')
+
+
+      section(data-bespoke-state='oneliner')
+        h1 Yeah, but...
+
+      section(data-bespoke-state='oneliner')
+        h3.bullet Missing a feature?
+        h2.bullet Don’t just complain,
+        h1.bullet get involved!
+
+
+      section(data-bespoke-fullscreenbackground='images/topthat.gif')
+        h1 This is not the 90s anymore.
+
+
+      section
+        h2.bullet The Web is YOURS,
+        h1.bullet so shape it!
+
+      section
+        h1 Getting involved means you make informed decisions.
+
+      section
+        h2.bullet What works? 
+        h2.bullet What doesn’t?
+        h2.bullet Why?
+        h2.bullet Is there a work around?
+
+
+      section
+        h1 Getting involved means your needs are taken into account.
+
+      section
+        h2.bullet We need this feature for our use case...
+        h2.bullet This feature can't work for this reason...
+
+      section(data-bespoke-state='oneliner')
+        h2.bullet A W3C editor sitting on their chair on a lonely room<span class="bullet"> will <em>never</em> know about your needs unless you tell them.</span>
+       
+
+      section(data-bespoke-state='list')
+        h2.bullet Ways to get involved
+        ul
+          li Always assume good intent, and be respectful.
+          li Find your channel: <span class="bullet">mailing lists</span><span class="bullet">, GitHub repos</span><span class="bullet">, IRC</span><span class="bullet">, meet ups</span><span class="bullet">, the Extensible web summit...</span>
+          li Ask questions.
+          li Try your code in different browsers.
+          li Try nightlies for preview features.
+          li Maybe even learn to compile your favourite browser!
+          li File bugs.
+          li Build things.
+          li Break things!
+          li File more bugs!
+
+      section
+        h1.bullet For the Web to be <em>ours</em><span class="bullet">, it needs <em>everyone’s</em> input.</span>
+
+      section(data-bespoke-fullscreenbackground='images/mozfest.jpg')
+        h1 Let’s build this together.
+
+      section(data-bespoke-state='title')
+        h1 Thanks!
+        h2 <a href="https://twitter.com/supersole">@supersole</a>
+        h3 <a href="http://soledadpenades.com">soledadpenades.com</a>
+
+
+    script(src='build/build.js')

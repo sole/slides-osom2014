@@ -1,0 +1,117 @@
+text_color = #000
+background_color = #fff
+slide_width = 640px
+slide_height = 420px
+
+body
+  color: text_color
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+.bespoke-slide
+  background: none
+  text-align: inherit
+  align-items: left
+  padding: 0
+  width: slide_width
+  height: slide_height
+  transition-property: opacity
+  transition-duration: 0.2s
+  transition-timing-function: ease-in
+
+h1, h2, h3
+  font-weight: 500
+
+h1
+  font-size: 90px
+  line-height: 82px
+  letter-spacing: -7.5px
+  margin-bottom: 16px
+
+h2
+  font-size: 60px
+  line-height: 46px
+  letter-spacing: -1px
+  margin-bottom: 8px
+
+h3
+  font-size: 40px
+  margin-bottom: 6px
+  letter-spacing: -1px
+  line-height: 40px
+
+h1, h2, h3, ul, q, p
+  width: 100%
+  text-align: left
+  color: inherit
+
+ul
+  list-style-position: inside
+  list-style-type: none
+  margin: 10px 0
+
+ul.columns
+  columns: 3
+  -moz-columns: 3
+
+li
+  margin: 0
+  
+li:before
+  content: ""
+  border-bottom: 2px solid black
+  height: 2px
+  width: 15px
+  margin-right: 8px
+  display: inline-block
+
+q
+  font-size: 30px
+  background: rgba(text_color, 0.05)
+  padding: 15px
+  margin: 5px 0
+
+
+// bespoke-state styles
+// AKA when sole went all mad about grids and borders
+fancy_border_style = 20px solid text_color
+fancy_border_padding = 30px
+fancy_border2_style = 10px solid text_color
+fancy_border2_padding = 20px
+
+.title > * > * > *:last-child
+  padding-bottom: fancy_border_padding
+  border-bottom: fancy_border_style
+
+.oneliner .bespoke-slide > *:first-child
+  border-top: fancy_border_style
+  padding-top: fancy_border_padding
+  
+.list .bespoke-slide > h2:first-child
+  border-bottom: fancy_border2_style
+  padding-bottom: fancy_border2_padding
+  
+.emphatic
+  // TODO
+
+.emphatic .bespoke-slide
+  justify-content: flex-end // to the bottom!
+  align-items: left
+
+.cover
+  background-position: center;
+  background-size: cover;
+
+.cover .bespoke-slide > *
+  background: rgba(background_color, 0.8)
+  padding: 15px
+
+.feature img
+  display: inline-block
+  max-height: 80%
+  max-width: 75%
+  width: auto
+  //max-width: 60%
+  //height: auto
+  //width: auto
+  -moz-object-fit: contain
+  object-fit: contain
