@@ -72,7 +72,7 @@ html
         ul
           li No preview...
           li ... or differs from actual results<span class="bullet"> (1+ minute deploy times)</span>
-          li Complex layouts <span class="bullet">... actually used a <tt>WebView</tt>!</span>
+          li Complex layouts<span class="bullet">... actually used a <tt>WebView</tt>!</span>
           li Native animations limited
           li Jank
           li Spending inordinate amounts of time in the profiler
@@ -281,66 +281,17 @@ html
         img(src='images/devtools_webaudio.gif')
 
 
-      section(data-bespoke-state='list')
-        h2 Polyfills and libraries
-        h1 Filling the gaps
+      section
+        h2 Take it one step further
 
 
-      section(data-bespoke-state='feature')
-        h2
-            a(href='mozilla.github.io/brick/').
-              Brick
-        img(src='images/apps-brick.gif')
+      section
+        h2.bullet What happens when you put web developers first?
 
 
-      section(data-bespoke-state='feature')
-        h2
-            a(href='http://mozilla-cordova.github.io/').
-              Phonegap + Firefox OS
-        img(src='images/apps-phonegap.png')
-
-
-      section(data-bespoke-state='feature')
-        h2
-            a(href='http://mozilla.github.io/localForage/').
-              localForage
-        pre
-          code.language-javascript.
-            // In localStorage, we would do:
-            localStorage.setItem('key', JSON.stringify('value'));
-            doSomethingElse();
-
-            // With localForage, we use callbacks:
-            localforage.setItem('key', 'value', doSomethingElse);
-
-            // Or we can use Promises:
-            localforage.setItem('key', 'value').then(doSomethingElse);
-
-      section(data-bespoke-state='feature')
-        h2
-            a(href='https://github.com/sole/Animated_GIF').
-              Animated_GIF
-        pre
-          code.language-javascript.
-            var imgs = document.querySelectorAll('img');
-            var ag = new Animated_GIF();
-            var animatedImage = document.createElement('img');
-            ag.setSize(320, 240);
-
-            for(var i = 0; i < imgs.length; i++) {
-                ag.addFrame(imgs[i]);
-            }
-
-            ag.getBase64GIF(function(image) {
-                animatedImage.src = image;
-                document.body.appendChild(animatedImage);
-            });
-
-      section(data-bespoke-state='feature')
-        h2
-            a(href='https://github.com/sole/Animated_GIF').
-              Animated_GIF
-        img(src='images/apps-animatedgif.gif')
+      section
+        h1.bullet Firefox Developer Edition
+        h2.bullet for those that build the web
 
 
       section(data-bespoke-state='oneliner')
@@ -352,7 +303,7 @@ html
         h1.bullet get involved!
 
 
-      section(data-bespoke-fullscreenbackground='images/topthat.gif')
+      section
         h1 This is not the 90s anymore.
 
 

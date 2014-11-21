@@ -1,43 +1,51 @@
-text_color = #000
+/*text_color = #000
 background_color = #fff
 slide_width = 640px
 slide_height = 420px
 
 body
   color: text_color
+  background: background_color
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  
+
 .bespoke-slide
-  background: none
+  background: transparent
   text-align: inherit
   align-items: left
   padding: 0
   width: slide_width
   height: slide_height
-  transition-property: opacity
-  transition-duration: 0.2s
-  transition-timing-function: ease-in
+  //transition-property: opacity
+  //transition-duration: 0.2s
+  //transition-timing-function: ease-in
+  background-position: center;
+
+// Argh
+.bespoke-parent, .bespoke-slide, .bespoke-slide *
+  //-webkit-transition: none
+  //transition: none
+
 
 h1, h2, h3
   font-weight: 500
 
 h1
-  font-size: 90px
-  line-height: 82px
-  letter-spacing: -7.5px
+  font-size: 70px
+  line-height: 62px
+  letter-spacing: -3.5px
   margin-bottom: 16px
 
 h2
-  font-size: 60px
-  line-height: 46px
+  font-size: 40px
+  line-height: 36px
   letter-spacing: -1px
   margin-bottom: 8px
 
 h3
-  font-size: 40px
+  font-size: 28px
   margin-bottom: 6px
   letter-spacing: -1px
-  line-height: 40px
+  line-height: 28px
 
 h1, h2, h3, ul, q, p
   width: 100%
@@ -73,10 +81,10 @@ q
 
 // bespoke-state styles
 // AKA when sole went all mad about grids and borders
-fancy_border_style = 20px solid text_color
-fancy_border_padding = 30px
-fancy_border2_style = 10px solid text_color
-fancy_border2_padding = 20px
+fancy_border_style = 10px solid text_color
+fancy_border_padding = 15px
+fancy_border2_style = 5px solid text_color
+fancy_border2_padding = 10px
 
 .title > * > * > *:last-child
   padding-bottom: fancy_border_padding
@@ -115,3 +123,34 @@ fancy_border2_padding = 20px
   //width: auto
   -moz-object-fit: contain
   object-fit: contain
+
+*/
+
+text_color = #fff
+background_color = #000
+
+
+.cover
+  background-position: center;
+  background-size: cover;
+
+.cover .bespoke-slide > *
+  background: rgba(background_color, 0.8)
+  padding: 15px
+
+.feature img
+  display: inline-block
+  max-height: 80%
+  max-width: 75%
+  width: auto
+  //max-width: 60%
+  //height: auto
+  //width: auto
+  -moz-object-fit: contain
+  object-fit: contain
+
+ul.columns
+  columns: 3
+  -moz-columns: 3
+  font-size: 15px
+

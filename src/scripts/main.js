@@ -1,6 +1,7 @@
 // Minimal require style by sole because I hate the default bespoke style
 require('bespoke').from('article', [
-	require('bespoke-theme-cube')(),
+//	require('bespoke-theme-cube')(),
+	require('bespoke-theme-voltaire')(),
 	require('bespoke-keys')(),
 	require('bespoke-touch')(),
 	require('bespoke-bullets')('li, .bullet'),
