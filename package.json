@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "bespoke-state": "^1.0.0",
-    "bespoke-theme-cube": "^2.0.0",
+    "bespoke-theme-voltaire": "^1.0.1",
     "presentation-fullscreen": "^1.0.0"
   },
   "devDependencies": {
